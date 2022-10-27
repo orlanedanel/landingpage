@@ -1,0 +1,55 @@
+.container1{
+
+	text-decoration: none;
+	background-color: none;
+	padding: 8px 24px;
+	border-radius: 6px;
+	hover: color: whitesmoke;;
+}
+.container1 a {
+	margin: 4px;
+	color: #9F8772;
+}
+
+.container1 a:hover {
+	color: whitesmoke;
+	transition: 0.5s;
+}
+
+.container2{
+
+	text-decoration: none;
+	background-color: none;
+	padding: 8px 24px;
+	color: #9F8772;
+	border-radius: 6px;
+	hover: color: whitesmoke;;
+}
+
+.container2 a {
+	margin: 4px;
+	color: #9F8772;
+}
+
+.container2 a:hover {
+	color: whitesmoke;
+	transition: 0.5s;
+}
+
+.container4{
+	font-size: 40px;
+	word-spacing: 3rem;
+	margin: 20px;
+ 	padding: 20px;
+ 	line-height: 2em;
+}
+
+.container5{
+	text-align: left;
+    border: solid white 2px;
+	margin: 20px;
+ 	padding: 20px;
+ 	line-height: 2em;
+}
+
+

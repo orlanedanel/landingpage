@@ -1,0 +1,99 @@
+@import url("components/banner.css");
+@import url("components/page-top.css");
+@import url("components/container.css");
+@import url("components/page-name.css");
+@import url("components/btn-menu.css");
+@import url("components/box.css");
+@import url("components/box-grid.css");
+@import url("components/header.css");
+
+body{
+    color:  white;
+    background-color: #EDDBC0;
+    line-height: 1.8;
+    text-align: center;
+    font-family: 'crossorigin', sans-serif;
+}
+
+h1 {
+    padding: 1px;
+    margin: 1px;
+}
+
+p{
+    font-size: 20px;
+    font: italic;
+    color: whitesmoke;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+h4 {
+    font-size: 30px;
+}
+
+.logo_lien {
+    width: 500px;
+}
+
+.image_lien {
+    width: 500px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 50px;
+}
+
+.btnbtn-default {
+    text-decoration: none;
+    background-color: #9F8772;
+    padding: 10px;
+    color: #EDDBC0;
+    border-radius: 6px;
+}
+
+.btnbtn-default:hover {
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+
+    @media (max-device-width: 540px) {
+        .container2 {
+            display: inline;
+        }
+
+        .box4{
+            display: inline;
+            font-size: 15px;
+        }
+
+        .image_lien {
+            width: 500px;
+        }
+
+        .body{
+            font-size: 10px;
+        }
+
+        .retrouveznous{
+            display: grid;
+            padding: 20px;
+            line-height: 2em;
+            font-size: 15px;
+        }
+
+        a {
+            font-size: 40px;
+            line-height: 2em;
+        }
+    

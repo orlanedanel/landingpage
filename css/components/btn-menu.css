@@ -1,0 +1,15 @@
+.btn-menu {
+	text-decoration: none;
+	background-color: none;
+	padding: 60px;
+	color: whitesmoke;
+	border-radius: 6px;
+}
+
+a:hover {
+	 color: #9F8772;
+	 transition: 0.5s;
+}
+p {
+	font-size: 20px;
+}
